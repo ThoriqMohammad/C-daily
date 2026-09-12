@@ -44,5 +44,5 @@ This repo is the proof of the writing.
 
 ## Author
 
-[Your Name]
-[Your LinkedIn]
+Mohammad Thoriq
+https://www.linkedin.com/in/mohammad-thoriq-344a0031a/

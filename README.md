@@ -1,2 +1,48 @@
-# C-daily
-A daily collection of small, practical C programs. Each day: one new project, one new skill. Building fluency in C through consistent practice—file I/O, pointers, data structures, algorithms, and systems programming.
+# c-daily
+
+A daily collection of small, practical C programs with a mathematical flavor.
+
+## Purpose
+
+- Practice writing real, working C code every day
+- Build a portfolio of proof
+- Strengthen skills in systems programming, algorithms, and security
+- Combine C with mathematics (number theory, combinatorics, cryptography)
+
+## Structure
+
+Each day has its own folder:
+
+    day-01-word-count/
+    ├── word_count.c
+    └── README.md
+
+    day-02-gcd-lcm/
+    ├── gcd_lcm.c
+    └── README.md
+
+## Projects
+
+| Day | Project | Focus |
+|-----|---------|-------|
+| 01  | word_count | File I/O, argc/argv |
+| 02  | gcd_lcm | Recursion, number theory |
+
+## Build
+
+Each project has its own README with build instructions.
+
+Typically:
+
+    gcc -o program program.c
+    ./program
+
+## Why This Exists
+
+Reading about C is not the same as writing C.
+This repo is the proof of the writing.
+
+## Author
+
+[Your Name]
+[Your LinkedIn]

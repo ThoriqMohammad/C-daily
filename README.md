@@ -60,7 +60,5 @@ This repo is the proof of the writing.
 
 ## Author
 
-## Author
-
 Mohammad Thoriq
 https://www.linkedin.com/in/mohammad-thoriq-344a0031a/

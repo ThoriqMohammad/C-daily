@@ -1,0 +1,91 @@
+# Day 27 — port_scanner
+
+A simple **TCP port scanner** for `localhost` (`127.0.0.1`).
+
+## ⚠️ Legal and Ethical Warning
+
+**Only scan systems you own or have explicit written permission to scan.**
+
+Scanning networks or systems you don't own is illegal in many
+jurisdictions and violates most terms of service. This program
+is for **educational purposes only**, and only on your own machine.
+
+## What Is Port Scanning?
+
+A port scanner tries to connect to each port on a host to see
+which ones have services listening.
+
+| Result | Meaning |
+|--------|---------|
+| **OPEN** | A service is listening on this port |
+| **CLOSED** | No service (or firewall blocking) |
+
+Port scanning is the first step in **reconnaissance**—the process
+of gathering information about a target before an attack.
+
+## Usage
+
+    ./port_scanner <start_port> <end_port>
+
+- Ports must be in the range 1–65535.
+- `start_port` must be less than or equal to `end_port`.
+
+## Example
+
+    $ ./port_scanner 1 1024
+    ====================================
+             PORT SCANNER
+    ====================================
+
+    Target: 127.0.0.1
+    Range:  1–1024
+
+    ⚠️  Only scan systems you own.
+
+    Port    22: OPEN  (SSH)
+    Port    80: OPEN  (HTTP)
+    Port   443: OPEN  (HTTPS)
+
+    Scan complete. 3 open port(s) found.
+
+## Build
+
+    gcc -Wall -Wextra -std=c99 -o port_scanner port_scanner.c
+
+## Skills Practiced
+
+- **Sockets** — `socket`, `connect`, `close`
+- **Networking** — TCP, ports, `sockaddr_in`
+- **System calls** — direct kernel interface
+- **Security concepts** — reconnaissance
+- **`argc` / `argv`** — input parsing
+- **Error handling** — socket failure
+
+## How It Works
+
+1. Create a TCP socket.
+2. Set a timeout so `connect` doesn't hang.
+3. Try to connect to the target port.
+4. If `connect` succeeds, the port is **open**.
+5. Close the socket and move on.
+
+## The Socket API
+
+| Function | Purpose |
+|----------|---------|
+| `socket()` | Create a socket |
+| `connect()` | Try to connect to a remote address |
+| `setsockopt()` | Configure socket options |
+| `close()` | Close the socket |
+
+## The Key Data Structures
+
+### `sockaddr_in`
+
+```c
+struct sockaddr_in {
+    short          sin_family;  /* AF_INET */
+    unsigned short sin_port;    /* port, network byte order */
+    struct in_addr sin_addr;    /* IP address */
+    char           sin_zero[8]; /* padding */
+};

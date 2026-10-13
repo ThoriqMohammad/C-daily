@@ -27,23 +27,39 @@ for systems and security roles.
 
 | Day | Project | Theme | Focus |
 |-----|---------|-------|-------|
-| 01  | `word_count` | ⚙️ Pure C | File I/O, `argc`/`argv` |
-| 02  | `gcd_lcm` | 📐 Math | Recursion, number theory |
-| 03  | `guess_the_number` | 🎮 Game | Random numbers, game loop |
-| 04  | `rock_paper_scissors` | 🎮 Game | Game logic, score tracking |
-| 05  | `prime_sieve` | 📐 Math | Arrays, Sieve of Eratosthenes, `malloc` |
-| 06  | `tic_tac_toe` | 🎮 Game | 2D arrays, win detection, simple AI |
-| 07  | `caesar_cipher` | 🔐 Cybersecurity | Modular arithmetic, classical cryptography |
-| 08  | `number_base_converter` | 📐 Math | Binary, octal, decimal, hex |
-| 09  | `linked_list` | ⚙️ Pure C | `struct`, `malloc`, pointers |
-| 10  | `hangman` | 🎮 Game | Strings, game state, ASCII art |
-| 11  | `xor_cipher` | 🔐 Cybersecurity | Bitwise XOR, stream ciphers |
-| 12  | `mini_cat` | 🐧 Linux Kernel | `open`, `read`, `write`, `close` |
-| 13  | `binary_search` | ⚙️ Pure C | Algorithms, recursion |
-| 14  | `fibonacci_memo` | 📐 Math | Dynamic programming |
-| 15  | `mini_shell` | 🐧 Linux Kernel | `fork`, `exec`, `wait` |
-| 16  | `snakes_and_ladders` | 🎮 Game | Simulation, probability |
-| 17  | `password_strength` | 🔐 Cybersecurity | Entropy, password security |
+| 01 | `word_count` | ⚙️ Pure C | File I/O, `argc`/`argv` |
+| 02 | `gcd_lcm` | 📐 Math | Recursion, number theory |
+| 03 | `guess_the_number` | 🎮 Game | Random numbers, game loop |
+| 04 | `rock_paper_scissors` | 🎮 Game | Game logic, score tracking |
+| 05 | `prime_sieve` | 📐 Math | Arrays, Sieve of Eratosthenes, `malloc` |
+| 06 | `tic_tac_toe` | 🎮 Game | 2D arrays, win detection, simple AI |
+| 07 | `caesar_cipher` | 🔐 Cybersecurity | Modular arithmetic, classical cryptography |
+| 08 | `number_base_converter` | 📐 Math | Binary, octal, decimal, hex |
+| 09 | `linked_list` | ⚙️ Pure C | `struct`, `malloc`, pointers |
+| 10 | `hangman` | 🎮 Game | Strings, game state, ASCII art |
+| 11 | `xor_cipher` | 🔐 Cybersecurity | Bitwise XOR, stream ciphers |
+| 12 | `mini_cat` | 🐧 Linux Kernel | `open`, `read`, `write`, `close` |
+| 13 | `binary_search` | ⚙️ Pure C | Algorithms, recursion |
+| 14 | `fibonacci_memo` | 📐 Math | Dynamic programming |
+| 15 | `mini_shell` | 🐧 Linux Kernel | `fork`, `exec`, `wait` |
+| 16 | `snakes_and_ladders` | 🎮 Game | Simulation, probability |
+| 17 | `password_strength` | 🔐 Cybersecurity | Entropy, password security |
+| 18 | `statistics_calculator` | 📐 Math | Mean, variance, stddev |
+| 19 | `dice_simulator` | 🎮 Game | Randomness, distributions |
+| 20 | `hash_function` | 🔐 Cybersecurity | Hashing, avalanche effect |
+| 21 | `binary_tree` | ⚙️ Pure C | BST insert, search, traversal |
+| 22 | `matrix_operations` | 📐 Math | 2D arrays, linear algebra |
+| 23 | `wordle_clone` | 🎮 Game | String matching, feedback |
+| 24 | `dynamic_array` | ⚙️ Pure C | `realloc`, amortized growth |
+| 25 | `base64_encoder` | 🔐 Cybersecurity | Encoding, bit manipulation |
+| 26 | `linear_algebra` | 📐 Math | Vectors, dot product |
+| 27 | `port_scanner` | 🔐 Cybersecurity | Sockets, TCP connect |
+| 28 | `hash_table` | ⚙️ Pure C | Chaining, collision handling |
+| 29 | `complex_numbers` | 📐 Math | Structs, operator functions |
+| 30 | `minesweeper` | 🎮 Game | Grids, recursion, flood fill |
+| 31 | `text_editor` | ⚙️ Pure C | Buffers, line editing |
+| 32 | `password_manager` | 🔐 Cybersecurity | Encryption, file storage |
+| 33 | `file_stats` | 🐧 Linux Kernel | `stat()`, `st_mode`, bitmasking |
 
 ## Structure
 

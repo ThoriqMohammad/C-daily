@@ -60,6 +60,8 @@ for systems and security roles.
 | 31 | `text_editor` | ⚙️ Pure C | Buffers, line editing |
 | 32 | `password_manager` | 🔐 Cybersecurity | Encryption, file storage |
 | 33 | `file_stats` | 🐧 Linux Kernel | `stat()`, `st_mode`, bitmasking |
+| 34 | `mini_ls` | 🐧 Linux Kernel | `opendir`, `readdir`, `struct dirent` |
+| 35 | `signal_demo` | 🐧 Linux Kernel | Signals, `sigaction`, signal masks |
 
 ## Structure
 

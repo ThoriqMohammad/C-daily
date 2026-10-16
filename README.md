@@ -63,6 +63,7 @@ for systems and security roles.
 | 34 | `mini_ls` | 🐧 Linux Kernel | `opendir`, `readdir`, `struct dirent` |
 | 35 | `signal_demo` | 🐧 Linux Kernel | Signals, `sigaction`, signal masks |
 | 36 | `dup2_demo` | 🐧 Linux Kernel | `dup`, `dup2`, file descriptor redirection |
+| 37 | `ring_buffer` | ⚙️ Pure C | Circular queue, modular indexing |
 
 ## Structure
 

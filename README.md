@@ -64,6 +64,7 @@ for systems and security roles.
 | 35 | `signal_demo` | 🐧 Linux Kernel | Signals, `sigaction`, signal masks |
 | 36 | `dup2_demo` | 🐧 Linux Kernel | `dup`, `dup2`, file descriptor redirection |
 | 37 | `ring_buffer` | ⚙️ Pure C | Circular queue, modular indexing |
+| 38 | `polynomial` | 📐 Math | Horner's method, convolution, degree management |
 
 ## Structure
 

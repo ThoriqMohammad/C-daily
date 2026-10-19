@@ -65,6 +65,7 @@ for systems and security roles.
 | 36 | `dup2_demo` | 🐧 Linux Kernel | `dup`, `dup2`, file descriptor redirection |
 | 37 | `ring_buffer` | ⚙️ Pure C | Circular queue, modular indexing |
 | 38 | `polynomial` | 📐 Math | Horner's method, convolution, degree management |
+| 39 | `2048` | 🎮 Game | Grid state, compress-merge-compress, spawn rules |
 
 ## Structure
 

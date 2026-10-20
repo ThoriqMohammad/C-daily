@@ -66,6 +66,7 @@ for systems and security roles.
 | 37 | `ring_buffer` | ⚙️ Pure C | Circular queue, modular indexing |
 | 38 | `polynomial` | 📐 Math | Horner's method, convolution, degree management |
 | 39 | `2048` | 🎮 Game | Grid state, compress-merge-compress, spawn rules |
+| 40 | `vigenere_cipher` | 🔐 Cybersecurity | Polyalphabetic cipher, key repetition, Kasiski attack |
 
 ## Structure
 

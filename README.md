@@ -68,6 +68,7 @@ for systems and security roles.
 | 39 | `2048` | 🎮 Game | Grid state, compress-merge-compress, spawn rules |
 | 40 | `vigenere_cipher` | 🔐 Cybersecurity | Polyalphabetic cipher, key repetition, Kasiski attack |
 | 41 | `mmap_demo` | 🐧 Linux Kernel | `mmap`, `msync`, `munmap`, file-backed memory |
+| 42 | `bloom_filter` | ⚙️ Pure C | Bit arrays, hashing, probabilistic membership |
 
 ## Structure
 

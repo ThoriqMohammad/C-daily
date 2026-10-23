@@ -69,6 +69,7 @@ for systems and security roles.
 | 40 | `vigenere_cipher` | 🔐 Cybersecurity | Polyalphabetic cipher, key repetition, Kasiski attack |
 | 41 | `mmap_demo` | 🐧 Linux Kernel | `mmap`, `msync`, `munmap`, file-backed memory |
 | 42 | `bloom_filter` | ⚙️ Pure C | Bit arrays, hashing, probabilistic membership |
+| 43 | `big_integer` | 📐 Math | Arbitrary-precision arithmetic, carry propagation |
 
 ## Structure
 

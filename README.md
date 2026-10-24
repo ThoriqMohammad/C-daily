@@ -70,6 +70,7 @@ for systems and security roles.
 | 41 | `mmap_demo` | 🐧 Linux Kernel | `mmap`, `msync`, `munmap`, file-backed memory |
 | 42 | `bloom_filter` | ⚙️ Pure C | Bit arrays, hashing, probabilistic membership |
 | 43 | `big_integer` | 📐 Math | Arbitrary-precision arithmetic, carry propagation |
+| 44 | `connect_four` | 🎮 Game | Minimax, alpha-beta pruning, heuristic evaluation |
 
 ## Structure
 

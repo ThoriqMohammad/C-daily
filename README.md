@@ -73,6 +73,7 @@ for systems and security roles.
 | 44 | `connect_four` | 🎮 Game | Minimax, alpha-beta pruning, heuristic evaluation |
 | 45 | `modular_exponentiation` | 🔐 Cybersecurity | Square-and-multiply, toy RSA, Fermat check |
 | 46 | `pipe_demo` | 🐧 Linux Kernel | `pipe`, `fork`, `dup2`, producer/consumer |
+| 47 | `huffman_coding` | ⚙️ Pure C | Huffman trees, bit packing, compression |
 
 ## Structure
 

@@ -74,6 +74,7 @@ for systems and security roles.
 | 45 | `modular_exponentiation` | 🔐 Cybersecurity | Square-and-multiply, toy RSA, Fermat check |
 | 46 | `pipe_demo` | 🐧 Linux Kernel | `pipe`, `fork`, `dup2`, producer/consumer |
 | 47 | `huffman_coding` | ⚙️ Pure C | Huffman trees, bit packing, compression |
+| 48 | `prime_factorization` | 📐 Math | Trial division, Pollard's rho, Miller-Rabin |
 
 ## Structure
 

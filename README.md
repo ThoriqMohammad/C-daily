@@ -75,6 +75,7 @@ for systems and security roles.
 | 46 | `pipe_demo` | 🐧 Linux Kernel | `pipe`, `fork`, `dup2`, producer/consumer |
 | 47 | `huffman_coding` | ⚙️ Pure C | Huffman trees, bit packing, compression |
 | 48 | `prime_factorization` | 📐 Math | Trial division, Pollard's rho, Miller-Rabin |
+| 49 | `snake` | 🎮 Game | Raw terminal mode, non-blocking input, real-time loop |
 
 ## Structure
 

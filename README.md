@@ -76,6 +76,7 @@ for systems and security roles.
 | 47 | `huffman_coding` | ⚙️ Pure C | Huffman trees, bit packing, compression |
 | 48 | `prime_factorization` | 📐 Math | Trial division, Pollard's rho, Miller-Rabin |
 | 49 | `snake` | 🎮 Game | Raw terminal mode, non-blocking input, real-time loop |
+| 50 | `rsa` | 🔐 Cybersecurity | Public-key crypto, key generation, capstone |
 
 ## Structure
 

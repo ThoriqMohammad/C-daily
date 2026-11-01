@@ -79,6 +79,7 @@ for systems and security roles.
 | 50 | `rsa` | 🔐 Cybersecurity | Public-key crypto, key generation, capstone |
 | 51 | `epoll_demo` | 🐧 Linux Kernel | epoll, event loops, level vs edge triggered |
 | 52 | `lz77` | ⚙️ Pure C | Sliding-window compression, backreferences |
+| 53 | `fft` | 📐 Math | Fourier transform, complex numbers, O(n log n) |
 
 ## Structure
 

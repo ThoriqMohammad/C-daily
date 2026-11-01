@@ -78,6 +78,7 @@ for systems and security roles.
 | 49 | `snake` | 🎮 Game | Raw terminal mode, non-blocking input, real-time loop |
 | 50 | `rsa` | 🔐 Cybersecurity | Public-key crypto, key generation, capstone |
 | 51 | `epoll_demo` | 🐧 Linux Kernel | epoll, event loops, level vs edge triggered |
+| 52 | `lz77` | ⚙️ Pure C | Sliding-window compression, backreferences |
 
 ## Structure
 

@@ -80,6 +80,7 @@ for systems and security roles.
 | 51 | `epoll_demo` | 🐧 Linux Kernel | epoll, event loops, level vs edge triggered |
 | 52 | `lz77` | ⚙️ Pure C | Sliding-window compression, backreferences |
 | 53 | `fft` | 📐 Math | Fourier transform, complex numbers, O(n log n) |
+| 54 | `asteroids` | 🎮 Game | Vector physics, circle collision, torus wrap |
 
 ## Structure
 

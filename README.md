@@ -82,6 +82,7 @@ for systems and security roles.
 | 53 | `fft` | 📐 Math | Fourier transform, complex numbers, O(n log n) |
 | 54 | `asteroids` | 🎮 Game | Vector physics, circle collision, torus wrap |
 | 55 | `diffie_hellman` | 🔐 Cybersecurity | Key exchange, discrete log, MITM awareness |
+| 56 | `signalfd_timerfd` | 🐧 Linux Kernel | signalfd, timerfd, async events as file descriptors |
 
 ## Structure
 

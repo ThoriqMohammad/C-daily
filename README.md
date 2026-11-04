@@ -81,6 +81,7 @@ for systems and security roles.
 | 52 | `lz77` | ⚙️ Pure C | Sliding-window compression, backreferences |
 | 53 | `fft` | 📐 Math | Fourier transform, complex numbers, O(n log n) |
 | 54 | `asteroids` | 🎮 Game | Vector physics, circle collision, torus wrap |
+| 55 | `diffie_hellman` | 🔐 Cybersecurity | Key exchange, discrete log, MITM awareness |
 
 ## Structure
 

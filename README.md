@@ -84,6 +84,7 @@ for systems and security roles.
 | 55 | `diffie_hellman` | 🔐 Cybersecurity | Key exchange, discrete log, MITM awareness |
 | 56 | `signalfd_timerfd` | 🐧 Linux Kernel | signalfd, timerfd, async events as file descriptors |
 | 57 | `sha256` | 🔐 Cybersecurity | SHA-256 hash function, avalanche effect, test vectors |
+| 58 | `ptrace_demo` | 🐧 Linux Kernel | ptrace, register inspection, mini-strace |
 
 ## Structure
 

@@ -85,6 +85,7 @@ for systems and security roles.
 | 56 | `signalfd_timerfd` | 🐧 Linux Kernel | signalfd, timerfd, async events as file descriptors |
 | 57 | `sha256` | 🔐 Cybersecurity | SHA-256 hash function, avalanche effect, test vectors |
 | 58 | `ptrace_demo` | 🐧 Linux Kernel | ptrace, register inspection, mini-strace |
+| 59 | `poker_hand_evaluator` | 🎮 Game | Hand ranking, tiebreakers, wheel edge case |
 
 ## Structure
 

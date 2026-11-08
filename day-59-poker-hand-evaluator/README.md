@@ -229,3 +229,15 @@ ranks but different suits (should tie).
 
 - **Bit-packing and integer encoding** — representing a card
   as a single integer is a small-scale version of how data
+  is packed throughout systems code.
+- **Frequency counting** — the `rank_counts`/`suit_counts`
+  arrays are a template for histogram-style analysis used
+  everywhere from text processing to image processing.
+- **Comparison function design** — the lexicographic pattern
+  (`if a[i] != b[i] return a[i] - b[i]`) is the foundation of
+  sorting, deduplication, and lookup by composite key.
+- **The pitfall of order-of-checks** — putting `if (is_flush)`
+  before `if (is_straight && is_flush)` is a classic bug.
+  Understanding that categories can overlap, and that the
+  more specific case must be checked first, is a broadly
+  applicable design principle.

@@ -86,7 +86,8 @@ for systems and security roles.
 | 57 | `sha256` | 🔐 Cybersecurity | SHA-256 hash function, avalanche effect, test vectors |
 | 58 | `ptrace_demo` | 🐧 Linux Kernel | ptrace, register inspection, mini-strace |
 | 59 | `poker_hand_evaluator` | 🎮 Game | Hand ranking, tiebreakers, wheel edge case |
-
+| 60 | `hmac` | 🔐 Cybersecurity | Keyed hashing, RFC 4231, constant-time compare |
+| 61 | `getpid_tree` | 🐧 Linux Kernel | /proc scanning, process tree, pstree clone |
 ## Structure
 
 Each project has its own folder:

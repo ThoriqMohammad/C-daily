@@ -90,6 +90,7 @@ for systems and security roles.
 | 61 | `getpid_tree` | 🐧 Linux Kernel | /proc scanning, process tree, pstree clone |
 | 62 | `lru_cache` | ⚙️ Pure C | Hash table + doubly-linked list, O(1) eviction |
 | 63 | `fft_convolution` | 📐 Math | Polynomial multiplication via FFT, convolution theorem |
+| 64 | `tcp_echo` | 🐧 Linux Kernel | TCP sockets, client-server, byte order |
 
 ## Structure
 

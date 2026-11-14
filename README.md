@@ -91,6 +91,7 @@ for systems and security roles.
 | 62 | `lru_cache` | ⚙️ Pure C | Hash table + doubly-linked list, O(1) eviction |
 | 63 | `fft_convolution` | 📐 Math | Polynomial multiplication via FFT, convolution theorem |
 | 64 | `tcp_echo` | 🐧 Linux Kernel | TCP sockets, client-server, byte order |
+| 65 | `simple_regex` | ⚙️ Pure C | Recursive descent, backtracking, ReDoS |
 
 ## Structure
 

@@ -92,6 +92,7 @@ for systems and security roles.
 | 63 | `fft_convolution` | 📐 Math | Polynomial multiplication via FFT, convolution theorem |
 | 64 | `tcp_echo` | 🐧 Linux Kernel | TCP sockets, client-server, byte order |
 | 65 | `simple_regex` | ⚙️ Pure C | Recursive descent, backtracking, ReDoS |
+| 66 | `tcp_concurrent` | 🐧 Linux Kernel | fork per client, poll event loop |
 
 ## Structure
 

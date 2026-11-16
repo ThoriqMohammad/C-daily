@@ -375,4 +375,86 @@ The last one is the security test. Without the
 ## Why This Matters for Cybersecurity
 
 - **HTTP is the #1 attack surface.** SQL injection, XSS,
-  SSRF, CSRF, path traversal, header
+  SSRF, CSRF, path traversal, header injection, request
+  smuggling — all HTTP-level attacks. Understanding the
+  protocol is prerequisite to understanding the attacks.
+- **Path traversal is a concrete example.** The defense in
+  `uri_has_traversal` is the standard fix, but variations
+  exist: URL-encoded `%2e%2e`, double-encoded `%252e`,
+  Unicode tricks, symlink traversal. Real defenses need
+  `realpath()` + prefix check, plus URL decoding first.
+- **The `Content-Length` header can be abused.** Request
+  smuggling attacks exploit differences in how servers
+  interpret `Content-Length` vs `Transfer-Encoding`. This
+  server ignores both, which is safe for GET but would be
+  vulnerable if POST were implemented naively.
+- **Response headers can leak information.** `Server:`
+  headers reveal the software version. `X-Powered-By:`
+  reveals frameworks. This server omits both, which is
+  best practice.
+- **No rate limiting means DoS.** A client can connect,
+  send garbage, disconnect, repeat — consuming server
+  resources. Rate limiting is essential for production.
+
+## Why This Matters as a Portfolio Piece
+
+- **"I wrote an HTTP server"** is a milestone. It's the
+  kind of thing every systems engineer does once, and every
+  senior engineer has opinions about.
+- **The step-order comment** at the top of the file makes
+  the code easy to follow. Anyone reading it can see the
+  plan before the implementation — that's the sign of
+  intentional code.
+- **The completeness of the error handling** shows
+  attention to detail. Not just "it serves files" but "it
+  handles 404, 405, 400, path traversal, malformed
+  requests correctly."
+- **The explicit list of what it doesn't do** is more
+  credible than if it claimed to do everything. A reader
+  trusts a README that says "here are the 10 features
+  this is not implementing" more than one that says
+  "complete HTTP server."
+- **It builds on the arc.** Day 64 → 66 → 68 is a clear
+  progression: sockets → concurrency → protocol. Day 70
+  (load balancer) and Day 72 (container) complete the
+  picture.
+
+## A Note on the Step-Order Comment
+
+Starting with Day 68, the source files include a **step-order
+comment** at the top — a numbered list of what the program
+does, in order, before the detailed description. This is
+useful because:
+
+1. **The plan is visible before the implementation.** A
+   reader can skim the steps, then follow them in the code.
+2. **It's a self-documenting skeleton.** If a function isn't
+   covered by the step list, it's probably doing something
+   the reader didn't expect.
+3. **It aids maintenance.** When modifying the program, the
+   step list is a checklist — did this change affect any
+   other step?
+
+This is the pattern from Day 68 onward. Earlier entries
+don't have it, but the convention is established now.
+
+## The Cloud & Networking Arc
+
+| Day | Project | Focus |
+|-----|---------|-------|
+| 64 | `tcp_echo` | sockets, ports, client-server |
+| 66 | `tcp_concurrent` | fork + poll, scalable servers |
+| **68** | **`http_server`** | **HTTP protocol, static file serving** |
+| 70 | `round_robin_lb` | load balancing, health checks |
+| 72 | `mini_container` | chroot, unshare, containers |
+
+The progression: a socket that echoes bytes (64) → a socket
+that handles many clients (66) → a socket that speaks a real
+protocol (68). Next: a server that distributes across many
+backends (70), then a program that isolates processes (72).
+Each step is a layer of abstraction — and each layer is what
+the layer above it is built from.
+
+By Day 72, you'll have built a minimal cloud platform from
+scratch: TCP, HTTP, load balancing, and process isolation.
+The same pieces a Kubernetes pod runs on.

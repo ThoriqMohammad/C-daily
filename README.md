@@ -93,6 +93,7 @@ for systems and security roles.
 | 64 | `tcp_echo` | 🐧 Linux Kernel | TCP sockets, client-server, byte order |
 | 65 | `simple_regex` | ⚙️ Pure C | Recursive descent, backtracking, ReDoS |
 | 66 | `tcp_concurrent` | 🐧 Linux Kernel | fork per client, poll event loop |
+| 67 | `minesweeper_solver` | 🎮 Game | Constraint propagation, subset inference |
 
 ## Structure
 

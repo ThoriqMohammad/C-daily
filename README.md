@@ -94,6 +94,8 @@ for systems and security roles.
 | 65 | `simple_regex` | ⚙️ Pure C | Recursive descent, backtracking, ReDoS |
 | 66 | `tcp_concurrent` | 🐧 Linux Kernel | fork per client, poll event loop |
 | 67 | `minesweeper_solver` | 🎮 Game | Constraint propagation, subset inference |
+| 68 | `http_server` | ⚙️ Pure C | HTTP/1.0, static file serving, path traversal defense |
+| 69 | `padding_oracle_demo` | 🔐 Cybersecurity | Bleichenbacher attack, side channels, constant-time defense |
 
 ## Structure
 

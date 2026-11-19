@@ -96,6 +96,7 @@ for systems and security roles.
 | 67 | `minesweeper_solver` | 🎮 Game | Constraint propagation, subset inference |
 | 68 | `http_server` | ⚙️ Pure C | HTTP/1.0, static file serving, path traversal defense |
 | 69 | `padding_oracle_demo` | 🔐 Cybersecurity | Bleichenbacher attack, side channels, constant-time defense |
+| 70 | `round_robin_lb` | 🐧 Linux Kernel | TCP load balancer, round-robin, health checks |
 
 ## Structure
 

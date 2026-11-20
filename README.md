@@ -97,6 +97,7 @@ for systems and security roles.
 | 68 | `http_server` | ⚙️ Pure C | HTTP/1.0, static file serving, path traversal defense |
 | 69 | `padding_oracle_demo` | 🔐 Cybersecurity | Bleichenbacher attack, side channels, constant-time defense |
 | 70 | `round_robin_lb` | 🐧 Linux Kernel | TCP load balancer, round-robin, health checks |
+| 71 | `bit_trie` | ⚙️ Pure C | Binary trie, longest-prefix match, IP routing |
 
 ## Structure
 

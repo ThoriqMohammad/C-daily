@@ -98,6 +98,7 @@ for systems and security roles.
 | 69 | `padding_oracle_demo` | 🔐 Cybersecurity | Bleichenbacher attack, side channels, constant-time defense |
 | 70 | `round_robin_lb` | 🐧 Linux Kernel | TCP load balancer, round-robin, health checks |
 | 71 | `bit_trie` | ⚙️ Pure C | Binary trie, longest-prefix match, IP routing |
+| 72 | `mini_container` | 🐧 Linux Kernel | Namespaces, chroot, unshare, container isolation |
 
 ## Structure
 

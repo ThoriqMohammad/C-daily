@@ -426,4 +426,5 @@ The full arc + postlude:
 | **73** | **`hyperloglog`** | **📐 Math** |
 
 That's a 10-day burst that touched every theme, told a
-coherent cloud story, and ended with
+coherent cloud story, and ended with a math-flavored
+probabilistic structure. Good closure.

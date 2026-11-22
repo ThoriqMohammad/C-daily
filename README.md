@@ -99,6 +99,7 @@ for systems and security roles.
 | 70 | `round_robin_lb` | 🐧 Linux Kernel | TCP load balancer, round-robin, health checks |
 | 71 | `bit_trie` | ⚙️ Pure C | Binary trie, longest-prefix match, IP routing |
 | 72 | `mini_container` | 🐧 Linux Kernel | Namespaces, chroot, unshare, container isolation |
+| 73 | `hyperloglog` | 📐 Math | Cardinality estimation, harmonic mean, bias correction |
 
 ## Structure
 

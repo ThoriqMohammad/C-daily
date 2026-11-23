@@ -100,6 +100,7 @@ for systems and security roles.
 | 71 | `bit_trie` | ⚙️ Pure C | Binary trie, longest-prefix match, IP routing |
 | 72 | `mini_container` | 🐧 Linux Kernel | Namespaces, chroot, unshare, container isolation |
 | 73 | `hyperloglog` | 📐 Math | Cardinality estimation, harmonic mean, bias correction |
+| 74 | `mastermind_solver` | 🎮 Game | Knuth's minimax, information-optimal guess, multiset scoring |
 
 ## Structure
 

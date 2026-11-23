@@ -302,4 +302,119 @@ informative feedback.
 - **Interactive play** — let the user be the codemaker or
   codebreaker
 - **Precomputed scoring table** — for ~10x speedup on
-  `./mastermind_solver all
+  `./mastermind_solver all`
+- **Reduced guess pool** — Knuth's later simplification or
+  Bestavros-Gerou's improvements
+- **Variable peg/color counts** — make PEGS and COLORS
+  runtime parameters
+- **Minimax on the guess tree** — find the optimal decision
+  tree for all 1296 codes (Knuth's 4.478 average is not
+  the true optimum; that's an open question in
+  combinatorial game theory for some variant rules)
+- **Probabilistic analysis** — given that the codemaker
+  uses a non-uniform distribution over codes, compute the
+  expected guess count with minimax vs. greedy
+- **GUI version** — terminal rendering with ANSI colors
+  for the pegs
+
+## Why This Matters for Systems Programming
+
+- **Decision under uncertainty** — the minimax-over-partitions
+  pattern shows up in scheduling, resource allocation,
+  and load balancing (Day 70's round-robin is a simpler
+  version).
+- **Candidate-set filtering** — the "remove all candidates
+  inconsistent with observation" pattern appears in
+  fuzzers (coverage-guided), debuggers (breakpoints),
+  and any model-checking tool.
+- **Scoring tables** — precomputing feedback for all pairs
+  is a general optimization for game engines (chess,
+  Go, poker). This is the smallest version.
+- **The exhaustive-verification habit** — testing on ALL
+  inputs, not just spot cases, is a discipline that
+  distinguishes reliable software from "works on my
+  machine." The 1296-code space is small enough to
+  actually do it.
+
+## Why This Matters for Cybersecurity
+
+- **Deduction under partial information** is the core
+  skill of intrusion detection. The solver's
+  "candidate set + filter" logic is exactly how a
+  signature-based IDS reasons about traffic.
+- **Information-theoretic reasoning** — minimizing
+  worst-case remaining uncertainty — is the foundation
+  of attack strategy. Every attacker choosing between
+  actions wants to minimize the defender's ability
+  to localize them.
+- **The multiset bug in scoring** is the kind of off-by-one
+  error that shows up in real code. The fix (two-pass with
+  matched-position tracking) is a standard defensive pattern.
+- **The "cheating codemaker" detection** — if the feedback
+  is inconsistent, the candidate set goes empty. Real
+  attacks detect cheating by checking for consistency;
+  this solver does the same implicitly.
+
+## Why This Matters as a Portfolio Piece
+
+- **"I implemented Knuth's Mastermind solver"** is a
+  specific, verifiable, impressive claim. The algorithm
+  is a classic from the combinatorial game theory
+  literature.
+- **The empirical proof is bulletproof.** Running the
+  solver on all 1296 codes and confirming max ≤ 5 is
+  a concrete demonstration of correctness. Not "it seems
+  to work" but "it provably works for every input."
+- **The score function is a teaching moment.** It's short
+  but subtle, and the README explains the trap. A
+  reviewer who reads the README learns something.
+- **It pairs with `minesweeper_solver` (Day 67).** Both
+  are "deduction under partial information" but with
+  very different algorithms (constraint propagation vs.
+  minimax). Together they show breadth in reasoning
+  engines.
+- **The step-order comment at the top** makes the file
+  readable in the first 30 seconds. That's a
+  portfolio-quality touch.
+
+## The Solver Arc
+
+| Day | Project | Reasoning style |
+|-----|---------|-----------------|
+| 06 | `tic_tac_toe` | Win detection (no AI) |
+| 44 | `connect_four` | Minimax + alpha-beta |
+| 67 | `minesweeper_solver` | Constraint propagation |
+| **74** | **`mastermind_solver`** | **Minimax over partitions** |
+
+That's four different approaches to "make an AI play a game."
+Each has different strengths: `connect_four` uses tree search,
+`minesweeper_solver` uses logical deduction,
+`mastermind_solver` uses information theory. A reviewer
+who reads all four sees that the author understands
+multiple AI techniques, not just one.
+
+## The Distribution After Day 74
+
+| Theme | Before | After Day 74 |
+|-------|--------|--------------|
+| 📐 Math | 14 | 14 |
+| 🎮 Game | 13 | **14** |
+| 🔐 Cyber | 13 | 13 |
+| 🐧 Kernel | 16 | 16 |
+| ⚙️ Pure C | 17 | 17 |
+
+Game catches up to Math. Kernel and Pure C remain ahead by
+2 and 3 respectively — that's the aftermath of the Cloud
+arc (Kernel-heavy) and the interleaved days (two Pure C
+entries in the arc). The next few entries should continue
+growing the smaller themes to balance.
+
+A natural follow-up sequence: Day 75 Cyber (padding oracles
+for a different attack), Day 76 Pure C (a data structure),
+Day 77 Math, Day 78 Game, Day 79 Kernel. That gradual
+round-robin will bring the totals within 1 of each other
+within ~5 more days.
+
+After Day 74, the repo has 74 entries across five themes,
+with steady growth and no theme dangerously under- or
+over-represented.

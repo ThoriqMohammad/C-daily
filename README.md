@@ -101,6 +101,7 @@ for systems and security roles.
 | 72 | `mini_container` | 🐧 Linux Kernel | Namespaces, chroot, unshare, container isolation |
 | 73 | `hyperloglog` | 📐 Math | Cardinality estimation, harmonic mean, bias correction |
 | 74 | `mastermind_solver` | 🎮 Game | Knuth's minimax, information-optimal guess, multiset scoring |
+| 75 | `length_extension` | 🔐 Cybersecurity | Merkle-Damgård, hash forgery, HMAC rationale |
 
 ## Structure
 

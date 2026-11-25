@@ -11,6 +11,7 @@ of forward pointers. Every node appears at level 0. Some
 nodes also appear at higher levels, chosen randomly with
 probability p (typically 0.5). Higher levels act as "express
 lanes" — they let you skip over many nodes at once.
+
 Level 2: head ----------------------------------> 50 -> NULL
 Level 1: head --------> 20 -----------> 40 ----> 50 -> NULL
 Level 0: head -> 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> NULL

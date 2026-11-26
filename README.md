@@ -103,6 +103,7 @@ for systems and security roles.
 | 74 | `mastermind_solver` | 🎮 Game | Knuth's minimax, information-optimal guess, multiset scoring |
 | 75 | `length_extension` | 🔐 Cybersecurity | Merkle-Damgård, hash forgery, HMAC rationale |
 | 76 | `skip_list` | ⚙️ Pure C | Probabilistic ordered list, O(log n) expected |
+| 77 | `numerical_integration` | 📐 Math | Trapezoidal, Simpson's, Monte Carlo, error analysis |
 
 ## Structure
 

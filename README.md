@@ -104,6 +104,7 @@ for systems and security roles.
 | 75 | `length_extension` | 🔐 Cybersecurity | Merkle-Damgård, hash forgery, HMAC rationale |
 | 76 | `skip_list` | ⚙️ Pure C | Probabilistic ordered list, O(log n) expected |
 | 77 | `numerical_integration` | 📐 Math | Trapezoidal, Simpson's, Monte Carlo, error analysis |
+| 78 | `nim_solver` | 🎮 Game | Nim's XOR invariant, Sprague-Grundy, impartial games |
 
 ## Structure
 

@@ -105,6 +105,7 @@ for systems and security roles.
 | 76 | `skip_list` | ⚙️ Pure C | Probabilistic ordered list, O(log n) expected |
 | 77 | `numerical_integration` | 📐 Math | Trapezoidal, Simpson's, Monte Carlo, error analysis |
 | 78 | `nim_solver` | 🎮 Game | Nim's XOR invariant, Sprague-Grundy, impartial games |
+| 79 | `timing_attack` | 🔐 Cybersecurity | Constant-time comparison, side-channel leaks, byte-by-byte attack |
 
 ## Structure
 
